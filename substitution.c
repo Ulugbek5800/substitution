@@ -63,7 +63,6 @@ int main(int argc, char *argv[])    // int argc - number of command line argumen
     {
         if (isalpha(plain[i]))
         {
-            //printf("Hello\n");
             for (int j = 0; j < 26; j++)
             {
                 if (toupper(plain[i]) == letters[j])    // *letters - alphabetized string
@@ -78,7 +77,6 @@ int main(int argc, char *argv[])    // int argc - number of command line argumen
         }
         else
         {
-            //printf("Hi\n");
             cipher[i] = plain[i];
         }
     }
